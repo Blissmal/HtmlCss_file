@@ -1,0 +1,15 @@
+a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: brown;
+  display: flex;
+}
+span{
+  display: inline;
+}
+.img_links{
+  align-content: end;
+  margin-left: 50em;
+  justify-content: right;
+
+}

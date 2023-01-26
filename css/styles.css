@@ -1,0 +1,46 @@
+body{
+
+  background-color: grey;
+  border: 20em;
+  margin: 20px;
+
+}
+h1{
+
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  cursor: pointer;
+
+}
+p{
+
+  font-family: "Source Code Pro", Serif;
+  font-size: 19px;
+
+}
+img{
+
+  border-radius: 18px;
+  margin-left: 600px;
+
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.footer{
+  font-weight: bold;
+  font-family: "Droid Sans", serif;
+  background-color: cyan;
+  border-radius: 20px;
+  padding: 20px;
+  display: block;
+  color: #a81414;
+
+
+}
+a{
+  text-decoration: none;
+}

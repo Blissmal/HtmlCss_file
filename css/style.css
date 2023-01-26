@@ -1,0 +1,59 @@
+p {
+  color: blue;
+  font-family: Dialog;
+  font-size: 18px;
+  font-weight: bold;
+}
+button{
+  color: red;
+  padding: 15px;
+  font-size: 15px;
+  background-color: black;
+  border: 0;
+  text-align: center;
+  margin: 20px;
+  border-radius: 18px;
+}
+button:hover {
+  box-shadow: 0 0 5px 3px blue;
+}
+h2{
+  font-family: FreeMono, Serif, serif;
+  color: chocolate;
+  background-color: #555555;
+  font-size: 45px;
+  border-radius: 18px;
+  text-align: center;
+  font-weight: bold;
+
+}
+.Format{
+  background-color: #17baea;
+  text-align: center;
+  border-radius: 18px;
+  font-family: cursive;
+}
+a{
+  text-decoration: none;
+}
+td, th{
+  border: 2px solid red;
+  padding: 10px;
+  text-align: center;
+  font-family: "Century Schoolbook L", serif;
+  color: blueviolet;
+
+}
+table{
+  width: 90%;
+  border-collapse: collapse;
+  margin: 10px;
+  background-color: black;
+}
+
+h1{
+  justify-content: center;
+  text-align: center;
+  color: brown;
+}
+

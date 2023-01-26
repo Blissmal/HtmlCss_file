@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+  <style>
+    form{
+      background-color: red;
+      padding: 15px;
+      font-family: "Potti Sreeramulu",sans-serif;
+      border-radius: 18px;
+      font-size: 20px;
+      color: purple;
+      border: 2px solid green;
+    }
+    label{
+      padding: 10px;
+      margin: 0;
+      width: 20px;
+    }
+    label:hover{
+      box-shadow: 0 0 2px 2px black;
+    }
+    input{
+      color: brown;
+      background-color: lightgreen;
+      border-radius: 20px;
+    }
+    button{
+      color: purple;
+      background-color: #17baea;
+      padding: 10px;
+      border-radius: 18px;
+      margin: 20px;
+      position: center;
+    }
+    h2{
+      background-color: beige;
+      color: red;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form action="iframe.html" method="get">
+  <fieldset>
+    <legend>Personal Info</legend>
+  <label for="fname">Full Names</label>
+  <input type="text" id="fname" placeholder="Enter Your Name"><br>
+  <label for="Eaddress">Email Address</label>
+  <input type="email" id="Eaddress" placeholder="Enter Your Email Address"><br>
+  <label for="Pnumb">Phone Number</label>
+  <input type="text" id="Pnumb" placeholder="Enter Your Phone Number"><br>
+  <label for="dob">Date of Birth</label>
+  <input type="date" id="dob"><br>
+    </fieldset>
+  <fieldset>
+    <legend>Gender</legend>
+  <label for="male">Male</label>
+  <input type="radio" id="male" name="gender"><br>
+  <label for="female">Female</label>
+  <input type="radio" id="female" name="gender"><br>
+    </fieldset>
+  <fieldset>
+    <legend>Other Details</legend>
+  <label for="courses">Course Taken</label>
+  <select name="course" id="courses">
+    <option value="javascript">Javascript</option>
+    <option value="python">Python</option>
+    <option value="android">Android</option>
+    <option value="html">Html</option>
+    <option value="mysql">Mysql</option>
+    <option value="c+">C+</option>
+    <option value="bootstrap">Bootstrap</option>
+  </select><br>
+  <label for="image">Upload Picture</label>
+  <input type="file" id="image"><br>
+  <label for="password">Password</label>
+  <input type="password" id="password" placeholder="Enter Your password" name="nenosiri"><br>
+    </fieldset>
+  <input type="submit" value="Register Here!!!"><br>
+</form>
+<button type="button" onclick="alert('Safari Lab Morning')">Bonyeza</button>
+</body>
+</html>

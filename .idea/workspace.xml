@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ff1bda-ce30-41e0-bd52-ce15a11448c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/git.html" beforeDir="false" afterPath="$PROJECT_DIR$/git.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLISS.html" beforeDir="false" afterPath="$PROJECT_DIR$/BLISS.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +74,7 @@
       <workItem from="1674630488870" duration="665000" />
       <workItem from="1674716916999" duration="1085000" />
       <workItem from="1674797446738" duration="1112000" />
+      <workItem from="1675053426834" duration="410000" />
     </task>
     <servers />
   </component>
